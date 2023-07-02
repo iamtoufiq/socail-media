@@ -6,8 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import {
   initialLoginInput,
-  ankushLoginCredentials,
-  anuragLoginCredentials,
+  tanayLoginCredentials,
+  toufiqLoginCredentials,
 } from "../../../utils/constants";
 import { loginUser } from "../../../firebase/firebase-auth";
 import { loginFormValidation } from "../../../utils";
@@ -76,7 +76,7 @@ const LoginCard = () => {
         Login
       </Button>
       <Button
-        onClick={() => loginClick(anuragLoginCredentials)}
+        onClick={() => loginClick(toufiqLoginCredentials)}
         className="demo_login_button"
         block={true}
         loading={status === "loading"}
@@ -84,7 +84,7 @@ const LoginCard = () => {
         Login as Toufiq
       </Button>
       <Button
-        onClick={() => loginClick(ankushLoginCredentials)}
+        onClick={() => loginClick(tanayLoginCredentials)}
         className="demo_login_button"
         block={true}
         loading={status === "loading"}

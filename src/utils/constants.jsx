@@ -41,12 +41,12 @@ export const toastConstants = {
   commentWarn: "Empty comment could not be posted",
 };
 
-export const anuragLoginCredentials = {
+export const toufiqLoginCredentials = {
   email: "imtouifq2@gmail.com",
   password: "1234567",
 };
-
-export const ankushLoginCredentials = {
+//tanayLoginCredentials
+export const tanayLoginCredentials = {
   email: "ta@gmail.com",
   password: "123456",
 };
