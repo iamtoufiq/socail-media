@@ -1,7 +1,7 @@
 # Social Media App
 This is a React-based social media app that allows users to connect, share posts, and interact with each other. The app provides several features to enhance the user experience and make socializing enjoyable.
 
-Checkout the live website [here](socail-media-plum.vercel.app)
+Checkout the live website [here](https://socail-media-plum.vercel.app)
 ## Features
 ### User Feed
 - View a landing page with a list of user posts.
