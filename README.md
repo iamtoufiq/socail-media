@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Social Media App
+This is a React-based social media app that allows users to connect, share posts, and interact with each other. The app provides several features to enhance the user experience and make socializing enjoyable.
+## Features
+### User Feed
+- View a landing page with a list of user posts.
+- Sort and filter posts by date and popularity.
+  - Trending Filter: Display posts with the most likes.
+  - Date Sort: Arrange posts based on the date added/created.
+### Create a Post
+- Easily create a new post using the "+" button or "Create new post" button.
+- Open a text box to enter the post content and submit it with a "Post" or "Submit" button.
+### Like a Post
+- Show appreciation for posts by liking them.
+- Interact with posts by giving a heart or thumbs up.
+### Edit & Delete Post
+- Edit Post:
+  - Modify your own post by clicking on the "Edit Post" button.
+  - Open a text box to edit the post content and save the changes.
+- Edit Post:
+  - Remove your own post by clicking on the "Delete Post" button.
+### User Profile
+- Choose from various avatar options to personalize your profile picture.
+  - View a default avatar for the profile picture after signing up.
+  - Edit your profile picture by selecting from avatar options and saving it.
+- Add a bio to your profile:
+  - Enter a description of yourself in the bio section.
+  - Edit your bio by clicking on the edit profile option and saving the changes.
+- Add a portfolio URL to your profile:
+  - Include a link to your portfolio in the profile.
+  - Edit the portfolio URL by clicking on the edit profile option and saving the changes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Follow/Unfollow
+- Follow other users to receive updates from their posts.
+- Unfollow users if you no longer wish to see their posts.
 
-## Available Scripts
+### Explore Feed
+- Browse and discover posts from users you don't follow.
+- Access a dedicated feed to explore content beyond your network.
+### Bookmark Post
+- Save posts of interest by bookmarking them.
+- Access a bookmark list to revisit saved posts.
+### Authentication
+- Sign up for the app using your email, first name, last name, username, password, and confirm password.
+- Enjoy a password hide-show feature for enhanced security.
+- Log in to the app using your email and password.
+- Log out from the app using the provided logout button in the header navbar.
 
-In the project directory, you can run:
+## Bonus Features (Optional)
+### Upload Images & Videos while creating a post
+- Enhance your posts by adding images and videos.
+### Add Emoji & GIFs while creating a post
+- Express yourself by including emojis and GIFs in your posts.
+### Edit User Profile Photo
+- Add Profile Picture:
+  - Upload a profile picture by clicking on the edit profile option.
+  - Utilize the "upload image" component to add your desired profile picture.
+-Add Background Image:
+  - Customize your profile further by adding a background image.
+  - Use the "upload background image" component in the edit profile section.
 
-### `npm start`
+### Infinite Scroll Feed
+- Experience a seamless browsing experience with infinite scrolling.
+- Continuously load new content as you scroll through the feed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the app and enjoy the social media experience it offers!
